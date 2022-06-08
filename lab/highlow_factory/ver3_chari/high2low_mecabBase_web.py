@@ -581,6 +581,8 @@ def prepro_ch03(input, lis_ef, tag_last, lis_w_last, lis_w_last_not, lis_ic):
                                                     elemen_w[ind+1] = 'ㄴㅡㄴ'
                                                 elif elemen_w[ind+1] == 'ㅇㅣ':
                                                     elemen_w[ind+1] = 'ㄱㅏ'
+                                                elif elemen_w[ind+1] == 'ㄱㅘ':
+                                                    elemen_w[ind+1] = 'ㅇㅘ'
                                                     
                             elif key_u==3:
                                 if len(elemen_t)>1:
